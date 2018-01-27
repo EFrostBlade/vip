@@ -1,0 +1,35 @@
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>全网免费vip视频解析</title>
+            <style>
+    body{
+            background:skyblue;
+        }
+    div.jm{width:250px;height:auto;overflow:hidden;margin:10% auto 0 auto;padding:40px;box-shadow:0 1px 30px #0d957a;border-radius:5px;}
+              h3{color:red}
+              .url{width:150px;height:30px;color:pink}
+              .anniu{height:30px}
+        </style>
+        <script type="text/javascript">
+
+            function jieXi() {
+                window.open('http://api.baiyug.cn/vip/index.php?url='+document.getElementById("url").value);
+            }
+        </script>
+  </head>
+  <body>
+    <div class="jm">
+      <h3>免费观看VIP视频教程</h3>
+      <p>1、复制你想要观看的VIP视频链接，一般位于该视频播放网页的上方</p>
+      <p>2、将复制的链接粘贴在下方输入框内</p>
+      <p>3、点击观看VIP视频</p>
+      <p>4、如果解析失败，可尝试切换播放线路</p>
+
+      <input type="text" name="url" id="url" class="url">
+      <button type="button" onclick="jieXi()" class="anniu"/>解析</button/>
+    </form>
+    </div>
+  </body>
+</html>
